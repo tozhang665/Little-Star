@@ -1,0 +1,128 @@
+#header-container{
+  height: 70px;
+  width: 100%;
+
+  border: 2px black solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-buttons{
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.header-schedule-tour{
+  margin-left: 50px;
+  background-color: #20b197;
+  color: #e2f5f2;
+  border: none;
+  padding: 8px 13px;
+  border-radius: 5px;
+  margin-right: 50px;
+}
+
+#website-body-center-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+#website-body-content-container{
+  max-width: 1000px;
+}
+
+.hero-image-container{
+  width: 100%;
+  height: 330px;
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-section-container{
+  padding: 70px;
+  background-color: lightcoral;
+}
+
+#about-title-text{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color:#0c6ddf;
+}
+
+#about-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-image-container{
+  height: 200px;
+  width: 90%;
+  background-color: lightgreen;
+}
+
+
+#two-locations-container{
+  background-color: lightgreen;
+  width: 100%;
+  height: 300px;
+}
+
+#two-locations-grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.two-locations-div{
+  height: 200px;
+  width: 90%;
+}
+
+.two-locations-img{
+  background-color: lightgrey;
+  height: 200px;
+}
+
+
+
+
+
+#schedule-form-container{
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: lightcyan;
+}
+
+
+#schedule-form-name-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#website-footer{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-text{
+  font-size: 24px;
+  display: block;
+}
+#footer-contact-us-button{
+  background-color: #20b197;
+  color: #e2f5f2;
+  border: none;
+  padding: 8px 13px;
+  border-radius: 5px;
+  margin-right: 50px;
+  font-size: 20px;
+}
