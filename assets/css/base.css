@@ -41,7 +41,7 @@ body{
 
 
 #website-body-content-container{
-  /* max-width: 1300px; */
+  max-width: 1300px;
 }
 
 .hero-image-container{
@@ -120,7 +120,7 @@ body{
 }
 
 .two-locations-img{
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   /* height: 200px; */
   width: 100%;
   height: auto;
