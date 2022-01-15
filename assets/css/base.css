@@ -92,8 +92,9 @@ body{
 #two-locations-container{
   /* background-color: lightgreen; */
   width: 100%;
-  height: 700px;
-
+  height: 600px;
+  background-color: #fbfbfb;
+  margin-bottom: 20px;
 }
 
 
@@ -149,7 +150,7 @@ body{
   padding-right: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   
 }
 
@@ -174,8 +175,24 @@ body{
 #schedule-form-name-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
 }
 
+#schedule-tour-form{
+  background-color: #f8f8f8;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+.form-text-input{
+  width: 100%;
+  height: 2rem;
+}
+
+.form-textarea-input{
+  width: 100%;
+  resize: none;
+}
 
 
 /* input[type="radio"] {
