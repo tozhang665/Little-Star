@@ -254,6 +254,13 @@ button:hover{
   margin-top: 20px;
 }
 
+.form-submit-button:hover{
+  cursor: pointer;
+}
+
+input[type="radio"]{
+  cursor: pointer;
+}
 
 /* input[type="radio"] {
   display: none;
