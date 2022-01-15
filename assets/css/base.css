@@ -158,9 +158,9 @@
 
 
 
-input[type="radio"] {
+/* input[type="radio"] {
   display: none;
-}
+} */
 
 
 /*
@@ -174,11 +174,11 @@ input[type="radio"] {
  * that it's clickable
  */
 
-label {
+/* label {
   display: inline-block;
   padding: 5px 10px;
   cursor: pointer;
-}
+} */
 
 
 /*
@@ -186,20 +186,20 @@ label {
  * We're going to position a pseudo element within this element(As it is the containing box)
  */
 
-label span {
+/* label span {
   position: relative;
   line-height: 22px;
-} 
+}  */
 
 
 /* 
  * Because we're using pseudo elements, a content property is required to make them appear.
  */
 
-label span:before,
+/* label span:before,
 label span:after {
   content: '';
-}
+} */
 
 
 /*
@@ -210,7 +210,7 @@ label span:after {
  * once you understand the concept you can really do it however you like.
  */
 
-label span:before {
+/* label span:before {
   border: 1px solid #222021;
   width: 20px;
   height: 20px;
@@ -228,7 +228,7 @@ label span:after {
   left: 4px;
   transition: 300ms;
   opacity: 0;
-}
+} */
 
 /*
  * This is the most important part of this whole file, if you understand what's happening here
@@ -239,9 +239,10 @@ label span:after {
  * selector(+) to select the span, and then it's pseudo element :after(What we are using to mark the button)
  * Because we already styled the :after, all we have to do is set the opacity to 1, making it fade in.
  */
-label input[type="radio"]:checked+span:after {
+
+/* label input[type="radio"]:checked+span:after {
   opacity: 1;
-}
+} */
 
 
 
