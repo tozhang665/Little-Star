@@ -1,5 +1,9 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 #header-container{
-  height: 70px;
+  height: 100px;
   /* width: 100%; */
   /* border: 2px black solid; */
   display: flex;
@@ -16,7 +20,8 @@
 .header-buttons{
   margin-left: 50px;
   text-decoration: none;
-  color: black;
+  color: #001514;
+  font-weight: 540;
 }
 
 .header-schedule-tour{
@@ -36,7 +41,7 @@
 
 
 #website-body-content-container{
-  max-width: 1000px;
+  /* max-width: 1300px; */
 }
 
 .hero-image-container{
@@ -67,11 +72,12 @@
 #about-grid-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
 }
 
 .about-image-img{
   /* height: 200px; */
-  width: 90%;
+  width: 100%;
   height: auto;
   border-radius: 10px;
 }
@@ -86,7 +92,7 @@
 #two-locations-container{
   /* background-color: lightgreen; */
   width: 100%;
-  height: 300px;
+  height: 700px;
 
 }
 
@@ -115,22 +121,36 @@
 
 .two-locations-img{
   background-color: lightgrey;
-  height: 200px;
+  /* height: 200px; */
+  width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
+.two-locations-address-container{
+  text-align: center;
+  font-size: 20px;
+}
+.two-locations-address-container > a{
+  color: #0c6ddf;
+}
 
-
-
+.two-locations-address-txt{
+  margin: 20px;
+}
 
 
 
 
 #schedule-form-container{
   height: 500px;
+  /* width: 80%; */
+  padding-left: 100px;
+  padding-right: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: lightcyan;
+  
 }
 
 #schedule-tour-title{
