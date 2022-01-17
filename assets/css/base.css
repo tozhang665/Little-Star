@@ -1,5 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif;
+  margin: 0px;
 }
 button:hover{
   cursor: pointer;
@@ -106,8 +107,13 @@ button:hover{
 .about-image-img{
   /* height: 200px; */
   width: 100%;
-  height: auto;
+  height: 255px;
   border-radius: 10px;
+}
+
+.about-image-text{
+  font-size: 16px;
+  line-height: 1.3rem;
 }
 
 .about-image-container{
@@ -129,7 +135,8 @@ button:hover{
 #two-locations-title-text{
   text-align: center;
   font-size: 26px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color:#0c6ddf;
   font-weight: 700;
 }
@@ -260,6 +267,14 @@ button:hover{
 
 input[type="radio"]{
   cursor: pointer;
+}
+
+
+.schedule-form-label{
+  font-size: 16px;
+  line-height: 1.5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* input[type="radio"] {

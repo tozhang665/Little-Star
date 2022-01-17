@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Little Star Preschool</title>
-  <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/base.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,20 +56,20 @@
           
           <div>
             <img src="./assets/images/IMG_7114-2.jpg" alt="" class="about-image-img">
-            <div>
+            <div class="about-image-text">
               We offer both full and part-time enrollment, provide morning and afternoon snacks and a hot lunch entree
             </div>
           </div>
           
           <div>
             <img src="./assets/images/Middle_Girl_Photo.png" alt="" class="about-image-img">
-            <div>
+            <div class="about-image-text">
               A year-round educational program that serves children aged 2.6-6 years old
             </div>
           </div>
           <div>
             <img src="./assets/images/IMG_7195.jpg" alt="" class="about-image-img">
-            <div>
+            <div class="about-image-text">
               We have an optional second language program, where children can learn Cantonese, Mandarin, or Tagalog
             </div>
           </div>
@@ -150,17 +150,17 @@
               <div id="schedule-form-name-grid">
                 <div>
                   
-                  <div>
+                  <div class="schedule-form-label">
                     First Name*
                   </div>
-                  <input type=”text” size=”19″ name=”ContactFirstName” class="form-text-input"> 
+                  <input type=”text” size=”19″ name=”ContactFirstName” class="form-text-input" required> 
                 </div>
                 <div>
                   
-                  <div>
+                  <div class="schedule-form-label">
                     Last Name*
                   </div>
-                  <input type="text" size="19" name="ContactLastName" class="form-text-input">
+                  <input type="text" size="19" name="ContactLastName" class="form-text-input" required>
                   
                 </div>
                 
@@ -168,17 +168,17 @@
               
               
               <div>
-                <div>
+                <div class="schedule-form-label">
                   Email*
                 </div>
-                <input type="text" size="19" name="ContactEmail" class="form-text-input">
+                <input type="email" size="19" name="ContactEmail" class="form-text-input" required>
               </div>
               
               <div>
-                <div>
+                <div class="schedule-form-label">
                   Message*
                 </div>
-                <textarea name="ContactMessage" cols="30" rows="10" class="form-textarea-input"></textarea>
+                <textarea name="ContactMessage" cols="30" rows="10" class="form-textarea-input" required></textarea>
               </div>
               <div>
                 Interested in which location?
